@@ -1,13 +1,14 @@
 .property-listing {
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-  .property-listing h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-sizing: border-box; 
+  overflow-x: hidden; 
+}
+
+.property-listing h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Search.css'; // Import your CSS file
+import './Search.css';
 
 const Search = () => {
   const [propertyType, setPropertyType] = useState('');
@@ -8,7 +8,7 @@ const Search = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    // Perform search based on selected criteria
+
     console.log('Searching...');
   };
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Contact.css'; // Import your CSS file
+import './Contact.css';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -9,8 +9,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform actions when the form is submitted, e.g., send an email
-    // For now, we'll just set submitted to true
+
     setSubmitted(true);
   };
 

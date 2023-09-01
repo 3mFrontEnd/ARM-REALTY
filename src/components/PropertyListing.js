@@ -1,5 +1,5 @@
 import React from 'react';
-import PropertyCarousel from './PropertyCarousel'; // Adjust the path to your PropertyCarousel component
+import PropertyCarousel from './PropertyCarousel';
 import img1 from "../assets/1.jpg"
 import img2 from "../assets/2.jpg"
 import img3 from "../assets/3.jpg"
@@ -42,8 +42,7 @@ const PropertyListing = () => {
       address: 'Address 1',
       price: '$300,000',
     },
-    
-    // Add more property objects
+
   ];
 
   return (

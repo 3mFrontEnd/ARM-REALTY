@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './PropertyCarousel.css'; // Import your CSS file
+import './PropertyCarousel.css';
 
 const PropertyCarousel = ({ properties }) => {
   const [currentPosition, setCurrentPosition] = useState(0);

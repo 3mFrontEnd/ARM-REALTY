@@ -4,6 +4,7 @@ import Navbar from './components/Navbar ';
 import Search from './components/Search';
 import PropertyListing from './components/PropertyListing';
 import Contact from './components/Contact.js'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Search />
         <PropertyListing />
         <Contact />
+        <Footer />
     </BrowserRouter>
       
   )

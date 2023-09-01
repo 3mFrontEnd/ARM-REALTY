@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Header.css'; // Import your CSS file
+import './Header.css'; 
 import video from "../assets/VIDEO.mp4"
 
 const Header = () => {
