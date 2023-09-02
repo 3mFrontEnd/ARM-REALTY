@@ -5,6 +5,8 @@ import Search from './components/Search';
 import PropertyListing from './components/PropertyListing';
 import Contact from './components/Contact.js'
 import Footer from './components/Footer';
+import Agents from './components/Agents';
+import ClientTestimonials from './components/ClientTestimonials';
 
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
         <Header />
         <Search />
         <PropertyListing />
+        <Agents />
         <Contact />
+        <ClientTestimonials />
         <Footer />
     </BrowserRouter>
       
